@@ -32,6 +32,11 @@ import com.example.android.dessertpusher.databinding.ActivityMainBinding
 
 /*TODO - 2 Crea una sottoclasse di ApplicationClass e in questo caso  PusherApplication
     Chiaramente estende la classe astratta?? Application()
+    class PusherApplication : Application() {
+    override fun onCreate() {
+       super.onCreate()
+     }
+    }
  */
 
 /*TODO - 3 Aggiungi la classe applicazione al Manifest
