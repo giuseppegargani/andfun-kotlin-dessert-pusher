@@ -27,6 +27,22 @@ import androidx.core.app.ShareCompat
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.LifecycleObserver
 import com.example.android.dessertpusher.databinding.ActivityMainBinding
+/*TODO - 1  Controllare la dipendenza in module:App
+ */
+
+/*TODO - 2 Crea una sottoclasse di ApplicationClass e in questo caso  PusherApplication
+    Chiaramente estende la classe astratta?? Application()
+ */
+
+/*TODO - 3 Aggiungi la classe applicazione al Manifest
+    Dentro il tag <Application> android:name=".PusherApplication"
+ */
+/*TODO - 4 Inizializza Timber nella classe applicazione
+    Timber.plant(Timber.DebugTree())
+ */
+/*TODO - 5 Aggiorna le affermazioni precedenti su Timber
+
+ */
 
 class MainActivity : AppCompatActivity(), LifecycleObserver {
 
