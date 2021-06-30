@@ -28,6 +28,25 @@ import androidx.lifecycle.LifecycleObserver
 import com.example.android.dessertpusher.databinding.ActivityMainBinding
 import timber.log.Timber
 
+/*TODO - 1 Fai di DessertTimer un LifeCycleObserver
+    prende un LifeCycle come parametro, implementa un LifeCycleObserver e stabilisci una relazione Observer nel blocco init
+    class DessertTimer(lifecycle: Lifecycle) : LifecycleObserver {
+    init {
+        lifecycle.addObserver(this)
+    }
+    }
+*/
+/*TODO - 2 Annota onStartTimer e onStopTimer con la corretta annotazione e con il giusto evento
+    @OnLifecycleEvent(Lifecycle.Event.ON_START)
+    fun startTimer() {...}
+    @OnLifecycleEvent(Lifecycle.Event.ON_STOP)
+    fun stopTimer() {...}
+ */
+
+/*TODO - 3  Inserisci "this" nel ciclo di vita della Attività principale così che venga osservata
+    dessertTimer = DessertTimer(this.lifecycle)
+ */
+
 class MainActivity : AppCompatActivity(), LifecycleObserver {
 
     private var revenue = 0
