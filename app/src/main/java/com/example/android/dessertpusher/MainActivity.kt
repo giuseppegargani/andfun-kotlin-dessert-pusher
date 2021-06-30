@@ -28,6 +28,19 @@ import androidx.lifecycle.LifecycleObserver
 import com.example.android.dessertpusher.databinding.ActivityMainBinding
 import timber.log.Timber
 
+/*TODO - 1 Togli il commento alla classe DessertTimer
+    CTRL + /
+ */
+
+/*TODO - 2 Inizializza Dessert Timer in onCreate
+    Dopo averlo dichiarato inizializzalo pure (private lateinit var)
+    dessertTimer = DessertTimer()
+ */
+/*TODO - 3 Inizia il conteggio nel metodo onStart del ciclo di vita e stoppalo nel metodo onStop
+    dessertTimer.startTimer()
+    dessertTimer.stopTimer()
+ */
+
 class MainActivity : AppCompatActivity(), LifecycleObserver {
 
     private var revenue = 0
